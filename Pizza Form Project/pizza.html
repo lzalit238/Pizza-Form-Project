@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Lily Zalit"> 
+    <meta name="description" content="Fill out a pizza order form">
+    <link rel="icon" href="images/pizza-icon.jpg">
+    <link rel="stylesheet" href="pizza-form.css">
+    <title>Pizza Form</title>
+</head>
+
+<header style="background-image: linear-gradient(to right, red, yellow, blue); font-family: sans-serif;">
+    <fieldset>
+            <center><h1>MAIN STREET PIZZARIA</h1></center>
+    </fieldset>
+</header>
+
+<body style="border:red dashed;">
+    <form style="background-color:lightgray; font-family: sans-serif;">
+    <fieldset>
+        <legend><h2>Your Order:</h2></legend>
+<!-- input boxes -->
+        <fieldset>
+            <legend><h4>User Information</h4></legend>
+            <ul>
+                <li>
+                    <label for="Input User Name">User Name:</label>
+                <input name="User Name">
+                </li>
+               
+                <li>
+                    <label for="Input Password">Password:</label>
+                <input name="Password">
+                </li>
+            </ul>
+        </fieldset>
+<!-- radio buttons -->
+        <fieldset>
+            <legend><h4>What drink do you want?</h4></legend>
+            <ul>
+                <li><input type="radio" id="Coke" name="drink" value="Coke"><label>Coke</label></li>
+                <li><input type="radio" id="Diet Coke" name="drink" value="Diet Coke"><label>Diet Coke</label></li>
+                <li><input type="radio" id="Sprite" name="drink" value="Sprite"><label>Sprite</label></li>
+                <li><input type="radio" id="Water" name="drink" value="Water"><label>Water</label></li>
+            </ul>
+        </fieldset>
+<!-- checkboxes -->
+        <fieldset>
+            <legend><h4>Pizza Preference</h4></legend>
+            <ul>
+                <li><input type="checkbox" id="Plain" name="pizza1" value="Plain"><label>Plain</label></li>
+                <li><input type="checkbox" id="Pepperone" name="pizza2" value="Pepperone"><label>Pepperone</label></li>
+                <li><input type="checkbox" id="Chicken" name="pizza3" value="Chicken"><label>Chicken</label></li>
+                <li><input type="checkbox" id="Sausage" name="pizza4" value="Sausage"><label>Sausage</label></li>
+            </ul>
+        </fieldset>
+<!-- text area -->
+        <fieldset>
+            <legend><h4>Special Instructions</h4></legend>
+            <ul>
+                <li>
+                    <label for="Special Instructions">Special Instructions:</label>
+                </li>
+                    <textarea name="Special Instructions" style="height:150px; width: 40%"></textarea>
+            </ul>
+        </fieldset>
+<!-- adding on to the project -->
+        <fieldset>
+            <legend><h4>Pick Up or Delivery</h4></legend>
+            <input type="radio" id="Pick Up" name="location" value="Pick Up"><label>Pick Up</label>
+            <input type="radio" id="Delivery" name="location" value="Delivery"><label>Delivery</label>
+            <ul>
+            <li><label>Time:</label><input type="time"></li>
+            </ul>
+                <input type="image" src="images/pizza5.png" alt="submit" width="75" height="75">        </fieldset>
+    </fieldset>
+    </form>
+</body>
+<footer style="background-image: linear-gradient(to right, red, yellow, blue);">
+    <fieldset>
+        <center><legend><h2>About Us</h2></legend></center>
+        <ul>
+            <li><h4>Address</h4></li>
+            <p>
+                Main Street Pizzaria<br>
+                12345 Main Street<br>
+                Skagway<br>
+                Alaska<br>
+            </p>
+
+            <li><h4>Social Media</h4></li>
+                <p>
+                    Instagram: @main_street_pizzaria
+                </p>
+
+            <li><h4>Customer Service</h4></li>
+                <p>Phone Number: (907)-612-2015</p>
+                <p>Email: mainstreetpizza@random.com</p>
+        </ul>
+    </fieldset>
+</footer>

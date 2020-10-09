@@ -1,0 +1,19 @@
+body,fieldset{
+    border: tomato double dashed;
+}
+.container{
+    position: relative;
+    width: 40%;
+}
+.container{
+    width: 90%;
+    height: auto;
+}
+.container .btn{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+ul{
+    color: firebrick;
+}
